@@ -1,0 +1,40 @@
+{
+  "name": "@gildembergleite/eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint configurations used in my projects.",
+  "main": "index.js",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gildembergleite/eslint-config.git"
+  },
+  "author": "Gildemberg Leite",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gildembergleite/eslint-config/issues"
+  },
+  "homepage": "https://github.com/gildembergleite/eslint-config#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-n": "^16.0.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.8.8"
+  },
+  "peerDependencies": {
+      "eslint": "^8.44.0",
+      "typescript": "^5.1.6"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  }
+}
