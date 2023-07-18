@@ -7,7 +7,6 @@ module.exports = {
   extends: [
     'standard',
     'plugin:react/recommended',
-    'plugin:react-hooks/recommended',
     'plugin:prettier/recommended',
   ],
   parser: '@typescript-eslint/parser',
@@ -25,7 +24,7 @@ module.exports = {
   ],
   rules: {
     'prettier/prettier': ["error", {
-      'printWidth': 120,
+      'printWidth': 80,
       'tabWidth': 3,
       'singleQuote': true,
       'trailingComma': 'all',
